@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Day 1 */
+
+body {
+  background-color: black;
+}
+
+.container {
+  width: 80%;
+  background-color: lightpink;
+  margin: 0 auto;
+  padding: 5em;
+
+  display: flex;
+}
+
+.intro-content {
+  width: 50%;
+  border: 2px solid greenyellow;
+}
+
+.note {
+  background-color: lightyellow;
+  width: 50%;
+  color: darkmagenta;
+  display: inline-block;
+  border: 2px solid greenyellow;
+}
