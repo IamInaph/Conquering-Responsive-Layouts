@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: lightslategray;
+  width: 90%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.em {
+  background-color: lightpink;
+  width: 45%;
+  font-size: 1em;
+}
+
+.container .em h1 {
+  font-size: 3em;
+}
+
+.container .em p {
+  font-size: 2em;
+  padding: 1em;
+}
+
+.rem {
+  background-color: lightskyblue;
+  width: 45%;
+}
+
+.container .rem h1 {
+  font-size: 3em;
+}
+
+.container .rem p {
+  font-size: 2em;
+  padding: 1em;
+}
