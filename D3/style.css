@@ -5,12 +5,15 @@
 
 .container {
   background-color: lightgreen;
-  width: 80%;
-  margin: 0 auto;
-
-  max-width: 750px;
 }
 
-.container .wrapper {
+.container .wrapper,
+.same .wrapper {
   width: 50%;
+}
+
+.same {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 750px;
 }
