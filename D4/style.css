@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.common {
+  width: 100%;
+  padding: 2em;
+}
+
+.hero {
+  background-color: #23424a;
+}
+
+.hero .container {
+  width: 50%;
+  padding-bottom: 2em;
+  color: #ffff;
+}
+
+.hero .btn a button {
+  background-color: rgb(0, 165, 171);
+  text-transform: uppercase;
+  border-radius: 1rem;
+  padding: 0.725em;
+  font-weight: 750;
+}
+
+.item .item-wrapper {
+  display: flex;
+  width: 100%;
+  gap: 2em;
+  text-align: center;
+}
+
+/* .item-wrapper + .item-wrapper {
+  margin-left: 2em;
+} */
